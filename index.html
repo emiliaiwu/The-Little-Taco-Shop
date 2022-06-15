@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Emilia Iwu">
   <meta name="description" content="The Little Taco Shop Website">
   <title>The Little Taco Shop</title>
@@ -14,35 +15,38 @@
   <header>
     <h1>Welcome to The Little Taco Shop</h1 <nav>
     <ul>
-      <li><a href="#about">About LTS</a></li>
-      <li>Our Menu</li>
-      <li>Store Hours</li>
-      <li>Contact Us</li>
+      <li><a href="#about">About <abbr title="Little Taco Shop">LTS</abbr></a></li>
+      <li><a href="#menu">Our Menu</a></li>
+      <li><a href="hours.html">Store Hours</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
     </ul>
     </nav>
+    <figure>
+      <img src="img/tacos_and_drink_400x267.png" alt="tacos and a drink" title="tacos and a drink" width="400" height="267">
+      <figcaption>Tacos and a Drink</figcaption>
+    </figure>
   </header>
+
   <main>
-    <article>
-      <section>
-        <figure>
-          <img src="img/tacos_and_drink_400x267.png" alt="tacos and a drink" title="tacos and a drink" width="400" height="267">
-          <figcaption>Tacos and a Drink</figcaption>
-        </figure>
-      </section>
-      <hr>
-      <section id="about">
-        <h2>About LTS</h2>
-        <p>LTS was founded in 2022. Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮 We hope our shop adds a unique and interesting place to our little town.</p>
-      </section>
-      <aside class="">
-        <h3>Tacos Trivia</h3>
-        <details>
-          <summary>When did Tacos first appear in the United States?</summary>
-          <p>The Taco was first introduced to the United States in 1905. Mexican migrants were coming in to work on railroads and other jobs and started to bring their delicious food with them. <em>Source: <a href="https://bit.ly/3NQLmrz">Twisted
-                Tacos</a></em></p>
-        </details>
-      </aside>
-      <hr>
+    <hr>
+
+    <article id="about">
+      <h2>About LTS</h2>
+      <p>LTS was founded in 2022. Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮 We hope our shop adds a unique and interesting place to our little town.</p>
+    </article>
+
+    <aside>
+      <h3>Tacos Trivia</h3>
+      <details>
+        <summary>When did Tacos first appear in the United States?</summary>
+        <p>The Taco was first introduced to the United States in 1905. Mexican migrants were coming in to work on railroads and other jobs and started to bring their delicious food with them. <em>Source: <a href="https://bit.ly/3NQLmrz">Twisted
+              Tacos</a></em></p>
+      </details>
+    </aside>
+
+    <hr>
+
+    <article id="menu">
       <h2>Our Menu</h2>
       <table>
         <caption>Our Tacos</caption>
@@ -85,11 +89,15 @@
           </tr>
         </tbody>
       </table>
-      <p><a href="#">Back to Top</a></p>
-      <hr>
-      <p>Copyright &copy; The Little Taco Shop</p>
+
     </article>
+    <p><a href="#">Back to Top</a></p>
+    <hr>
   </main>
+
+  <footer>
+    <p>Copyright &copy; The Little Taco Shop</p>
+  </footer>
 </body>
 
 </html>
